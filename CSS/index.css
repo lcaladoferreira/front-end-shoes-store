@@ -26,6 +26,7 @@
 
 }
 
+
 main{
 
    align-items: center;
@@ -44,6 +45,12 @@ main{
 }
 
 
+.colection h1{
+
+    color: black;
+    
+
+}
 
 .catalogo{
     background-color: #C2185B;
@@ -87,6 +94,7 @@ main{
 .card img{
 
     width: 100%; 
+    
 
 }
 
