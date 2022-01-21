@@ -32,11 +32,14 @@ main{
    align-items: center;
 }
 
-.banner main{
+.banner img{
 
-    width: 100%; 
-
+    display: flex;
+    align-items: center; 
+    width: 100%;
+    
 }
+
 
 .card main {
 
