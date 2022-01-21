@@ -1,0 +1,107 @@
+*{
+
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Open Sans", "Helvetica Ne";
+
+}
+
+.container{
+
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0 15px; 
+    box-shadow: 0px 1px 20px rgba(159, 159, 159, 0.65);
+
+}
+
+.menu a{
+    padding: 10px; 
+    color: #777777;;
+    font-size: 1.5vw;
+    font-weight: 00;
+    text-transform: uppercase;
+
+}
+
+main{
+
+   align-items: center;
+}
+
+.banner main{
+
+    width: 100%; 
+
+}
+
+.card main {
+
+    align-items: center;
+
+}
+
+
+
+.catalogo{
+    background-color: #C2185B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+
+}
+
+.catalogo h2{
+
+    text-align: center;
+    color: #fff;
+    font-weight: 800;
+    font-size: 2.5vw;
+    line-height: 60px;
+
+}
+
+.anuncio {
+
+    display: flex;
+    width: 100vw;
+    justify-content: space-evenly;
+    padding: 0 40px; 
+    margin-bottom: 20px;
+
+}
+
+.card{
+
+    background-color: #fff;
+    padding: 0 0 20px; 
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+
+}
+
+.card img{
+
+    width: 100%; 
+
+}
+
+.card h3 {
+
+    text-align: justify;
+    padding-left: 15px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+
+}
+
+.card span {
+
+    margin-left: 20px;
+}
