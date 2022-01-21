@@ -47,10 +47,31 @@ main{
 
 .colection h1{
 
-    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3vw;
+    line-height: 60px;
     
+}
+
+.produto div{
+
+   display: flex;
+   flex-direction: row;
+
 
 }
+
+.carousel {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+
+}
+
 
 .catalogo{
     background-color: #C2185B;
