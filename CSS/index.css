@@ -137,3 +137,14 @@ main{
 
     margin-left: 20px;
 }
+
+
+footer {
+
+    background-color: #C2185B;
+    display: flex;
+    flex-direction: column;
+   
+    
+
+}
