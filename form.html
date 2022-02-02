@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <header>
+        <section class="container">
+            <div class="logo">
+                <img src="/img/logo-color.png" alt="">
+            </div>
+            <nav class="menu">
+                <a href="">Todos os Produtos</a>
+                <a href="">Coleções</a>
+                <a href="">outlet</a>
+            </nav>
+        </section>
+    </header>
+    <main>
+        <div class="w3-content">
+           <!--              
+            <img class="mySlides" src="/Img/banner.png" alt="custom_html_banner1">
+            <img class="mySlides" src="/Img/ZtdhrUA.jpeg" alt="custom_html_banner2">
+            <img class="mySlides" src="/Img/banner.png" alt="custom_html_banner3">
+            <img class="mySlides" src="/Img/ZtdhrUA.jpeg" alt="custom_html_banner4">
+           --->
+
+           <h2 class ="mySlides" alt="custom_html_banner1">MÊS DE FEVEREIRO - FRETE GRÁTIS PARA TODO BRASIL!</h2>
+           <h2 class ="mySlides" alt="custom_html_banner2">MÊS DE FEVEREIRO - FRETE GRÁTIS PARA TODO BRASIL!</h2>
+            <script src="form.js"></script>
+            <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+        </div>
+        <section class="containerForm">      
+            
+         <form class="formData"  action="/registro" method="POST">
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" required>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+            <label for="telefone">Telefone</label>
+            <input type="tel" name="telefone" id="telefone" required>
+           <label for="departamento">departamento</label>
+            <select name="deparatamento" id="departamento">             
+                    <option value="Redes">Redes</option>
+                    <option value="Midia">Midia</option>
+                    <option value="marketing">Marketing</option>
+                    <option value="Gestão">Gestão</option   >            
+            </select>
+
+            <label for="msg">Mensagem</label>
+            <textarea name="Mensagem" id="msg" rows="5"></textarea>
+            <button type="submit">enviar</button>
+          </form>
+      
+      <div class="texto"> 
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ipsum lorem ipsum dolor sit amet, consectetur adip. orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ipsum lorem ipsum dolor sit amet, consectetur adip</p>
+      </div>
+    </section>
+    </main>
+
+        <!-- <article class="catalogo">
+            <h2> 30% OFF </h2>
+            <section class="anuncio">
+                <div class="card">
+                    <img src="./img/shoes1.png" alt="">
+                    <h3>Scappin</h3>
+                    <span>R$140</span>
+                </div>
+                <div class="card">
+                    <img src="./img/shoes2.png" alt="">
+                    <h3>Scappin</h3>
+                    <span>R$140</span>
+                </div>
+                <div class="card">
+                    <img src="./img/shoes3.png" alt="">
+                    <h3>Scappin</h3>
+                    <span>R$140</span>
+                </div>
+                <div class="card">
+                    <img src="./img/shoes4.png" alt="">
+                    <h3>Scappin</h3>
+                    <span>R$140</span>
+                </div>
+            </section>
+        </article> -->
+        <footer>
+            <div class="mais-detalhes">
+              <div class="info-loja">
+                <div>
+                  <img src="/pojeto/img/logo-white.png" alt="" srcset="">
+                </div>
+                <div class="description-loja">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                </div>
+              </div>
+        <div class="category">
+            <h3>categorias</h3>
+            <nav>
+              <ul>
+                <a href="#"><li>sandálias</li></a>
+                <a href="#"><li>botas</li></a>
+                <a href="#"><li>tênis</li></a>
+                <a href="#"><li>oxford</li></a>
+                <a href="#"><li>coturnos</li></a>
+              </ul>
+            </nav>
+          </div>
+          <div class="institucional">
+            <h3>institucional</h3>
+            <nav>
+              <ul>
+                <a href="#"><li>sobre nós</li></a>
+                <a href="#"><li>perguntas frequentes</li></a>
+                <a href="#"><li>politica de privacidade</li></a>
+                <a href="#"><li>rastreamento  de pedidos</li></a>
+                <a href="/pojeto/src/trabalhecomagente.html"><li>trabalhe conosco</li></a>
+                <a href="#"><li>contato</li></a>
+              </ul>
+            </nav>
+
+          </div>
+        </div>
+      </footer>
+    </body>
+    </html>    
